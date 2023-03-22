@@ -1,0 +1,107 @@
+
+html {
+    height: 100%;
+    
+  background-color: rgb(141, 238, 255) !important;
+}
+.body{
+  margin: 0;
+  height: 100%;
+
+}
+
+
+ 
+@font-face {
+    font-family:IranNastaliq;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/IranNastaliq.ttf') format('ttf');
+    src: url('../font/IranNastaliq.ttf') ;
+   
+   }
+   @font-face {
+    font-family: 'Neirizi';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/Neirizi font.ttf') format('ttf');
+    src:url('../font/Neirizi font.ttf')  format('truetype');
+   
+   }
+
+   @font-face {
+    font-family: 'Gandom';
+    src: url('../font/Gandom-WOL.ttf') format('ttf');
+    src: url('../font/Gandom-WOL.ttf');
+    src:url('../font/Gandom-WOL.woff') format('woff');/* Super Modern Browsers */
+    src:url('../font/Gandom-WOL.eot') format('eot');
+    font-weight: bold;
+  }
+  
+  
+.main{
+    position: relative;
+    margin-left: 400px;
+    margin-top: 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    
+}
+.title{
+    text-align: right;
+    font-family: 'Gandom';
+}
+.btn{
+    background-color: rgb(141, 12, 19);
+    font-family: 'Gandom';
+    font-size: large;
+    color: aliceblue;
+    text-decoration:none
+
+}
+.email{
+    width: 250px;
+    height: 40px;
+}
+.phone{
+    width: 250px;
+    height: 40px;
+    
+}
+.password_one{
+    width: 250px;
+    height: 40px;
+
+}
+.password_two{
+    width: 250px;
+    height: 40px;
+}
+.name{
+    width: 250px;
+    height: 40px;
+    text-align: right;
+}
+
+.family{
+    width: 250px;
+    height: 40px;
+    text-align: right;
+}
+.city{
+    width: 250px;
+    height: 40px;
+    text-align: right;
+}
+.codeMelli{
+    width: 250px;
+    height: 40px;
+}
+.date{
+    width: 250px;
+    height: 40px;
+}
